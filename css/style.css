@@ -372,29 +372,102 @@ textarea {
             box-sizing: border-box;
 }
 
-/* roboto-regular - cyrillic */
+/* mulish-regular - latin */
 @font-face {
-    font-family: 'Roboto';
+    font-family: 'Mulish';
     font-style: normal;
     font-weight: 400;
-    src: local('Roboto'), local('Roboto-Regular'),
-         url('../fonts/roboto-v20-cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/roboto-v20-cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: local(''),
+         url('../fonts/mulish-v1-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/mulish-v1-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
-.header {
-    font-family: 'Roboto';
-    width: 768px;
-    height: 90px;
-    background-color: #C4C4C4;
-    margin: 0 auto;
-    text-align: center;
+ body {
+     font-family: 'Mulish';
+ }
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
 }
 
-.wrapper {
-    max-width: 768px;
-    min-width: 320px;
-    background-color: hotpink;
-    height: 500px;
-    margin: 0 auto;
+.header {
+    background-color: #FFFFFF;
+    width: 1487px;
+    height: 719px;
+    position: absolute;
+    left: -50px;
+    top: 56px;
+}
+
+.header-logo {
+    position: absolute;
+    width: 160px;
+    height: 41px;
+    left: 191px;
+    margin-top: 56px;
+}
+
+.header-element {
+    position: absolute;
+    left: -3.12%;
+    right: 94.9%;
+    top: 2.73%;
+    bottom: 95.32%;
+    opacity: 0.3;
+}
+
+.header-illustration {
+    position: absolute;
+    width: 693px;
+    height: 598px;
+    left: 744px;
+    top: 177px;
+}
+
+.top-nav {
+    position: absolute;
+    width: 545px;
+    height: 23px;
+    left: 863px;
+    top: 70px;
+    float: right;
+    display: block;
+    margin-top: 14px;
+}
+
+.top-nav li {
+    float: left;
+    display: block;
+    margin-right: 40px;
+}
+
+.top-nav a {
+    color: #1F1534;
+    text-decoration: none;
+}
+
+.header-text {
+    margin-top: 227px;
+}
+
+.header-text-first{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.header-text-second{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+    mix-blend-mode: normal;
 }
