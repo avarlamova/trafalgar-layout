@@ -382,10 +382,6 @@ textarea {
          url('../fonts/mulish-v1-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
- body {
-     font-family: 'Mulish';
- }
-
 .clearfix:after {
     content: '';
     display: table;
@@ -397,9 +393,6 @@ textarea {
     background-color: #FFFFFF;
     width: 1487px;
     height: 719px;
-    position: absolute;
-    left: -50px;
-    top: 56px;
 }
 
 .header-logo {
@@ -410,24 +403,8 @@ textarea {
     margin-top: 56px;
 }
 
-.header-element {
-    position: absolute;
-    left: -3.12%;
-    right: 94.9%;
-    top: 2.73%;
-    bottom: 95.32%;
-    opacity: 0.3;
-}
-
-.header-illustration {
-    position: absolute;
-    width: 693px;
-    height: 598px;
-    left: 744px;
-    top: 177px;
-}
-
 .top-nav {
+    font-family: Mulish;
     position: absolute;
     width: 545px;
     height: 23px;
@@ -448,9 +425,16 @@ textarea {
     color: #1F1534;
     text-decoration: none;
 }
+.header-element {
+    margin-top: 63px;
+    opacity: 0.3;
+}
 
 .header-text {
-    margin-top: 227px;
+    width: 445px;
+    height: 338px;
+    margin-top: 8px;
+    margin-left: 190px;
 }
 
 .header-text-first{
@@ -470,4 +454,24 @@ textarea {
     line-height: 32px;
     color: #7D7987;
     mix-blend-mode: normal;
+    margin-top: 25px;
+}
+
+.header-text-btn {
+    font-family: Mulish;
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    background: #458FF6;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 55px;
+    margin-top: 45px;
+}
+
+.header-illustration {
+    margin-top: -356px;
+    float: right;
+    width: 693px;
+    height: 598px;
 }
