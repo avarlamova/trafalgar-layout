@@ -16,7 +16,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
+    margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -392,10 +392,11 @@ textarea {
 .header {
     background-color: #FFFFFF;
     width: 1487px;
-    height: 719px;
+    height: auto;
+    margin-bottom: 190px;
 }
 
-.header-logo {
+.header__logo {
     position: absolute;
     width: 160px;
     height: 41px;
@@ -403,7 +404,7 @@ textarea {
     margin-top: 56px;
 }
 
-.top-nav {
+.header__nav {
     font-family: Mulish;
     position: absolute;
     width: 545px;
@@ -415,29 +416,30 @@ textarea {
     margin-top: 14px;
 }
 
-.top-nav li {
+.header__nav li {
     float: left;
     display: block;
     margin-right: 40px;
 }
 
-.top-nav a {
+.header__nav a {
     color: #1F1534;
     text-decoration: none;
 }
-.header-element {
-    margin-top: 63px;
+.header__element {
+    margin-top: 160px;
     opacity: 0.3;
 }
 
-.header-text {
+.header__text {
+    float: left;
     width: 445px;
     height: 338px;
     margin-top: 8px;
     margin-left: 190px;
 }
 
-.header-text-first{
+.header__text-first{
     font-family: Mulish;
     font-style: normal;
     font-weight: bold;
@@ -446,7 +448,7 @@ textarea {
     color: #000000;
 }
 
-.header-text-second{
+.header__text-second{
     font-family: Mulish;
     font-style: normal;
     font-weight: 300;
@@ -457,7 +459,7 @@ textarea {
     margin-top: 25px;
 }
 
-.header-text-btn {
+.header__text__btn {
     font-family: Mulish;
     position: absolute;
     width: 200px;
@@ -469,9 +471,58 @@ textarea {
     margin-top: 45px;
 }
 
-.header-illustration {
-    margin-top: -356px;
-    float: right;
+.header__illustration {
+    margin-top: -106px;
+    margin-left: 109px;
     width: 693px;
     height: 598px;
+}
+
+.our-services {
+    width: 1675.58px;
+    height: 1133px;
+    padding-right: 190.42px;
+    padding-left: 372px;
+}
+
+.our-services__heading {
+    width: 952px;
+    height: 177px;
+}
+
+.our-services__heading__first {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: #000000;  
+    margin-left: 323px;
+}
+
+.our-services__heading__line {
+    width: 56px;
+    height: 2px;
+    margin-top: 26px;
+    margin-left: 400px;
+}
+
+.our-services__heading__second {
+    margin-top: 33px;
+    margin-right: 2px;
+    height: auto;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #7D7987
+}
+
+.our-services__bg-element {
+    width: 1118.54px;
+    margin-left: -266px;
+    height: 967.94px;
+    float: left;
+    margin-right: 557px;
 }
