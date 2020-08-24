@@ -389,6 +389,10 @@ textarea {
     clear: both;
 }
 
+body {
+    font-family: 'Mulish';
+}
+
 .header {
     background-color: #FFFFFF;
     width: 1487px;
@@ -405,7 +409,6 @@ textarea {
 }
 
 .header__nav {
-    font-family: Mulish;
     position: absolute;
     width: 545px;
     height: 23px;
@@ -481,13 +484,23 @@ textarea {
 .our-services {
     width: 1675.58px;
     height: 1133px;
-    padding-right: 190.42px;
-    padding-left: 372px;
+    margin-right: 190.42px;
+}
+
+.our-services__img {
+    position: absolute;
+    width: 1118.54px;
+    height: 967.94px;
+    margin-left: -266px;
+    margin-top: 0px;
+    z-index: 0;
 }
 
 .our-services__heading {
     width: 952px;
     height: 177px;
+    margin-right: 323px;
+    margin-left: 325px;
 }
 
 .our-services__heading__first {
@@ -519,36 +532,43 @@ textarea {
     color: #7D7987
 }
 
-.our-services__bg-element {
-    width: 1118.54px;
-    margin-left: -266px;
-    height: 967.94px;
-    float: left;
-    margin-right: 557px;
-}
-
 .our-services__grid {
     width: 1120px;
     height: 745px;
+    margin-left: 240px;
     margin-bottom: 80px;
     margin-right: 240px;
+    padding-right: 0px;
+    padding-left: 0px;
+    z-index: 2;
 }
 
 .our-services__grid__line {
-    margin-bottom: 37px;
+    height: 354px;
 }
-
 .our-services__grid__element {
     width: 350px;
-    height: 354px;
     background: #FFFFFF;
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
     border-radius: 20px;
     padding-top: 54px;
     padding-left: 37px;
-    float:left;
-    margin-right: 34px;
+    float: left;
     padding-bottom: 47px;
+    margin-bottom: 37px;
+}
+
+.our-services__grid__element-central {
+    width: 350px;
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    padding-top: 54px;
+    padding-left: 37px;
+    float: left;
+    padding-bottom: 47px;
+    margin-left: 34px;
+    margin-right: 36px;
 }
 
 .our-services__grid__element + img {
@@ -581,6 +601,12 @@ textarea {
     margin-right: 45px;
 }
 
+.our-services__bg-element {
+    width: 131px;
+    height: 115px;
+    opacity: 0.3;
+}
+
 .our-services__btn {
 width: 200px;
 height: 60px;
@@ -589,7 +615,6 @@ background-color: #FFFFFF;
 box-sizing: border-box;
 border-radius: 55px;
 text-align: center;
-
 font-family: 'Mulish';
 font-style: normal;
 font-weight: bold;
