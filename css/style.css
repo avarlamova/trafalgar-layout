@@ -393,6 +393,9 @@ body {
     font-family: 'Mulish';
 }
 
+div {
+    box-sizing: border-box;
+}
 .header {
     background-color: #FFFFFF;
     width: 1487px;
@@ -442,7 +445,7 @@ body {
     margin-left: 190px;
 }
 
-.header__text-first{
+.header__text h1 {
     font-family: Mulish;
     font-style: normal;
     font-weight: bold;
@@ -451,7 +454,7 @@ body {
     color: #000000;
 }
 
-.header__text-second{
+.header__text p {
     font-family: Mulish;
     font-style: normal;
     font-weight: 300;
@@ -640,9 +643,7 @@ body {
     margin-left: 134px;
 }
 .providers__img {
-    top: 2316px;
-    left: 134px;
-    right: 816px;
+    float: left;
     width: 650px;
     height: 477px;
 }
@@ -653,7 +654,7 @@ body {
     margin-left: 792px;
     margin-right: 193px;
     margin-top: -420px;
-    float: left;
+    float: right;
 }
 
 .providers__info-headline {
@@ -699,7 +700,7 @@ body {
     height: 56px;
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 60px;
     color: #458FF6;
     mix-blend-mode: normal;
@@ -715,6 +716,7 @@ body {
 }
 
 .apps__info {
+    float: left;
     margin-top: 277px;
     width: 420px;
     height: 375px;
@@ -781,6 +783,7 @@ margin-bottom: 31px;
 }
 
 .apps__img {
+    float: right;
     margin-top: -313px;
     margin-left: 491px;
     width: 665px;
@@ -796,15 +799,17 @@ margin-bottom: 31px;
 }
 
 .reviews {
+    margin-top: 300px;
     width: 1219.58px;
     height: 440px;
     margin-left: 190px;
     margin-right: 190px;
+    padding: 10px 10px 10px 10px;
+
 }
 
 .reviews__wrapper {
-    padding: 10px 10px 10px 10px;
-    margin: 15px 47px 0 52px;
+    margin: 0 47px 0 52px;
     background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
     border-radius: 24px;
     width: 1120px;
@@ -850,19 +855,15 @@ margin-right: 530px;
 }
 
 .reviews__wrapper__customer-name {
-    position: absolute;
-    margin-left: 170px;
+    margin-left: 236px;
     font-weight: bold;
     font-size: 22px;
     line-height: 48px;
         color: #FFFFFF;
-    
     mix-blend-mode: normal;
 }
 
 .reviews__wrapper__customer-position {
-    margin-left: 170px;
-
     font-style: normal;
 font-weight: normal;
 font-size: 18px;
