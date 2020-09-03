@@ -775,7 +775,9 @@ margin-bottom: 31px;
 }
 
 .apps__info__btn-arrow {
+    position: absolute;
     float: left;
+    margin-top: 0px;
     margin-left: 14px;
     margin-right: 20px;
     width: 15.4px;
@@ -784,8 +786,8 @@ margin-bottom: 31px;
 
 .apps__img {
     float: right;
-    margin-top: -313px;
-    margin-left: 491px;
+    margin-top: 231px;
+    margin-right: 164px;
     width: 665px;
     height: 434px;
 }
@@ -805,7 +807,6 @@ margin-bottom: 31px;
     margin-left: 190px;
     margin-right: 190px;
     padding: 10px 10px 10px 10px;
-
 }
 
 .reviews__wrapper {
@@ -814,6 +815,9 @@ margin-bottom: 31px;
     border-radius: 24px;
     width: 1120px;
     height: 425px;
+    padding-top: 64px;
+    padding-left: 118px;
+    padding-right: 118px;
 }
 
 .reviews__wrapper__element-first {
@@ -824,7 +828,6 @@ margin-bottom: 31px;
 
 .reviews__wrapper__headline {
     width: 522px;
-    margin-top: 64px;
     margin-left: 301px;
     margin-right: 297px;
     margin-bottom: 25px;
@@ -845,7 +848,6 @@ margin-right: 530px;
 }
 
 .reviews__wrapper__customer {
-    margin-left: 118px;
     margin-bottom: 79px;
 }
 
@@ -880,6 +882,18 @@ font-size: 19px;
 line-height: 30px;
 color: rgba(255, 255, 255, 0.9);
 mix-blend-mode: normal
+}
+
+.reviews__wrapper__element-first {
+
+
+opacity: 0.3;
+}
+
+.reviews__wrapper__element-second {
+
+
+opacity: 0.26;
 }
 
 .info {
@@ -946,14 +960,12 @@ border-radius: 20px 20px 0px 0px;
     margin-left: 33px;
     margin-right: 66px;
     font-family: Mulish;
-font-style: normal;
-font-weight: bold;
-font-size: 21px;
-line-height: 32px;
-/* or 152% */
-color: #000000;
-
-mix-blend-mode: normal;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 32px;
+    color: #000000;
+    mix-blend-mode: normal;
 }
 
 .info__articles__item-text {
@@ -1048,17 +1060,13 @@ height: 201px;
 
 .footer__about__text {
     font-family: Mulish;
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 28px;
-/* or 156% */
-
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-}
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    }
 
 .footer__nav {
     
